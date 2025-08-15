@@ -1,6 +1,13 @@
+import img1 from "../../public/img1.png"
+import img2 from "../../public/img2.png"
+import img3 from "../../public/img3.png"
+import img4 from "../../public/img4.png"
+import img5 from "../../public/img5.png"
+import img6 from "../../public/img6.png"
+
 export const CardData = [
   {
-    img: "../../public/img1.png",
+    img: img1,
     id: 1,
     title: "Masala Dosa",
     description:
@@ -9,7 +16,7 @@ export const CardData = [
     category: "breakfast",
   },
   {
-    img: "../../public/img2.png",
+    img: img2,
     id: 2,
     title: "Poha",
     description:
@@ -18,7 +25,7 @@ export const CardData = [
     category: "breakfast",
   },
   {
-    img: "../../public/img3.png",
+    img: img3,
     id: 3,
     title: "Aloo Paratha",
     description:
@@ -27,7 +34,7 @@ export const CardData = [
     category: "breakfast",
   },
   {
-    img: "../../public/img4.png",
+    img: img4,
     id: 4,
     title: "Idli Sambar",
     description:
@@ -36,7 +43,7 @@ export const CardData = [
     category: "breakfast",
   },
   {
-    img: "../../public/img4.png",
+    img: img5,
     id: 5,
     title: "Upma",
     description:
@@ -45,7 +52,7 @@ export const CardData = [
     category: "breakfast",
   },
   {
-    img: "../../public/img5.png",
+    img: img6,
     id: 6,
     title: "Paneer Butter Masala",
     description:
@@ -54,7 +61,7 @@ export const CardData = [
     category: "lunch",
   },
   {
-    img: "../../public/img6.png",
+    img: img1,
     id: 7,
     title: "Chicken Biryani",
     description:
@@ -63,7 +70,7 @@ export const CardData = [
     category: "lunch",
   },
   {
-    img: "../../public/img1.png",
+    img: img2,
     id: 8,
     title: "Rajma Chawal",
     description:
@@ -72,7 +79,7 @@ export const CardData = [
     category: "lunch",
   },
   {
-    img: "../../public/img2.png",
+    img:img3,
     id: 9,
     title: "Chole Bhature",
     description: "Spicy chickpea curry served with deep-fried bread.",
@@ -80,7 +87,7 @@ export const CardData = [
     category: "lunch",
   },
   {
-    img: "../../public/img3.png",
+    img: img4,
     id: 10,
     title: "Veg Thali",
     description:
@@ -89,7 +96,7 @@ export const CardData = [
     category: "lunch",
   },
   {
-    img: "../../public/img5.png",
+    img: img5,
     id: 11,
     title: "Dal Makhani",
     description: "Slow-cooked black lentils in a creamy tomato gravy.",
@@ -97,7 +104,7 @@ export const CardData = [
     category: "dinner",
   },
   {
-    img: "../../public/img4.png",
+    img: img6,
     id: 12,
     title: "Butter Chicken",
     description: "Tender chicken pieces in a creamy tomato-based sauce.",
@@ -105,7 +112,7 @@ export const CardData = [
     category: "dinner",
   },
   {
-    img: "../../public/img5.png",
+    img: img1,
     id: 13,
     title: "Palak Paneer",
     description: "Spinach puree cooked with cottage cheese cubes and spices.",
@@ -113,7 +120,7 @@ export const CardData = [
     category: "dinner",
   },
   {
-    img: "../../public/img6.png",
+    img:img2,
     id: 14,
     title: "Mutton Rogan Josh",
     description: "Aromatic mutton curry with Kashmiri spices.",
@@ -121,7 +128,7 @@ export const CardData = [
     category: "dinner",
   },
   {
-    img: "../../public/img1.png",
+    img: img3,
     id: 15,
     title: "Jeera Rice",
     description: "Basmati rice tempered with cumin seeds.",
@@ -129,7 +136,7 @@ export const CardData = [
     category: "dinner",
   },
   {
-    img: "../../public/img2.png",
+    img: img4,
     id: 16,
     title: "Pav Bhaji",
     description:
@@ -138,7 +145,7 @@ export const CardData = [
     category: "dinner",
   },
   {
-    img: "../../public/img3.png",
+    img: img5,
     id: 17,
     title: "Vada Pav",
     description: "Spicy potato fritter sandwiched in a bun with chutneys.",
@@ -146,7 +153,7 @@ export const CardData = [
     category: "lunch",
   },
   {
-    img: "../../public/img4.png",
+    img: img6,
     id: 18,
     title: "Samosa",
     description: "Deep-fried pastry filled with spiced potatoes and peas.",
@@ -154,7 +161,7 @@ export const CardData = [
     category: "breakfast",
   },
   {
-    img: "../../public/img5.png",
+    img: img3,
     id: 19,
     title: "Dhokla",
     description:
@@ -163,7 +170,7 @@ export const CardData = [
     category: "breakfast",
   },
   {
-    img: "../../public/img6.png",
+    img: img4,
     id: 20,
     title: "Kadhi Chawal",
     description:
