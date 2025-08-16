@@ -3,7 +3,7 @@ import { Button } from "./Button";
 
 export const Card = ({ img, price, title, description }) => {
   return (
-    <main className=" text-white border-1 border-white flex mx-2 md:h-50 h-40 hover:scale-104 ease-in-out transition-all  w-90 mt-6 rounded-2xl p-3 backdrop-blur-xl ">
+    <main className=" text-white  flex mx-2 md:h-50 h-40 hover:scale-104 ease-in-out transition-all   w-90 mt-6 rounded-2xl p-3 backdrop-blur-2xl  ">
       <div className="w-100 flex justify-center items-center  ">
         <img src={img} alt="" />
       </div>
