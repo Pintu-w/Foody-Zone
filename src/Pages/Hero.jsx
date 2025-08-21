@@ -63,7 +63,7 @@ export const Hero = () => {
         backgroundSize: "contain",
       }}
     >
-      <div className=" w-full flex lg:h-9 mt-2 justify-end gap-2">
+      <div className=" w-full h-9 flex lg:h-9 mt-2 justify-end gap-2">
         <Cart />
         <Filter />
         <CardDetails cardData={cardData} />
