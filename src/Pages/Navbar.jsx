@@ -1,20 +1,29 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Button } from "../Components/Button";
-import { Navdata } from "../Constant/Data";
+import { NavButton } from "../content/Data";
+import { AuthContext } from "../context/AuthProvider";
 
-export const Navbar = ({ handleNav }) => {
+export const Navbar = () => {
+  const { setButtonData } = useContext(AuthContext);
+
   return (
-    <div className="md:text-xl bg">
-      {Navdata.map(({ id, title }) => {
-        return (
-          <Button
-            style={" focus:bg-red-900"}
-            key={id}
-            Data={title}
-            handleNav={handleNav}
-          />
-        );
-      })}
-    </div>
+    <>
+      <div className="navbar">
+        {NavButton.map((ele) => {
+          return (
+            <>
+              <div
+                id={ele}
+                onClick={(e) => {
+                  setButtonData(e.target.id);
+                }}
+              >
+                <Button Data={ele} />
+              </div>
+            </>
+          );
+        })}
+      </div>
+    </>
   );
 };
